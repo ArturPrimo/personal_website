@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="...">
+        <title>Personal Website</title>
+        <style>
+            body {
+                margin: auto;
+                width: 800px;
+                font-family: system-ui, -apple-system;
+                font-size: large;
+                justify-content: center;
+                align-items: center;
+            }
+
+            h1 {
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+            }
+            .img-style1 {
+                width: 150px;
+                height: 170px;
+            }
+
+            .img-style2 {
+                width: 170px;
+                height: 170px;
+            }
+
+            .left {
+                float: left;
+                padding-left: 200px;
+                padding-top: 50px;
+                
+            }
+
+            .right {
+                float: right;
+                padding-right: 200px;
+                padding-top: 50px;
+                transform: translateY(-45px);
+            }
+            
+            .caption1 {
+                margin-bottom: 10px;
+                font-weight: bold;
+                padding-left: 219px;
+                text-align: left;
+                transform: translateY(45px);
+            }
+
+            .caption2 {
+                margin-bottom: 10px;
+                font-weight: bold;
+                text-align: right;
+                padding-right: 188px;
+                
+            }
+            
+            .image-container {
+                margin-bottom: 20px;
+                
+            }
+
+            .caption3 {
+                margin-top: 410px;
+                text-align: left;
+                font-weight: bold;
+                transform: translateX(227px)
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>
+            Welcome to Artur Primo's Personal Website!
+        </h1>
+        <h2>
+            Over here, you can check out my...
+        </h2>
+        
+        <div class="image-container">
+            <p class="caption1">Linkedin Page</p>
+            <a href="https://linkedin.com/in/arturprimo" target="_blank">
+                <img src=".\linkedin-icon-2.svg" alt="Linkedin Icon" class="img-style1 left">
+            </a>
+        </div>
+        
+        <div class="image-container">
+            <p class="caption2">Programming Projects</p>
+            <a href="https://github.com/ArturPrimo" target="_blank">
+                <img src=".\github-mark.svg" alt="Github Icon" class="img-style2 right">
+            </a>
+        </div>
+
+        <a href="https://www.linkedin.com/in/arturprimo/overlay/1721417597913/single-media-viewer/?profileId=ACoAADjwHNQBhlibT389JH9ZRr8wXAdAwmmVKlI" target="_blank">
+            <img src=".\pdf-icon.svg" alt="PDF icon" class="img-style1 left">
+        </a>
+        <p class="caption3">My resume</p>
+        
+
+    </body>
+</html>
